@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Berkshire+Swash&display=swap');
+
+html,
+body {
+    position: relative;
+    font-family: 'Berkshire Swash';
+    font-size: 22px;
+    color: #DAD7CD;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+html {
+    background: url(https://images.unsplash.com/photo-1724554427582-3b7cba44529b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) repeat;
+}
+
+div.header {
+    perspective: 800px;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    width: 50%;
+    max-width: 800px;
+    line-height: 30px;
+    background-color: #072b17;
+    padding: 1px 40px;
+    margin: 10px auto;
+    border-radius: 30px 50px 50px 30px;
+    border-right: 5px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: 5px 5px 10px rgb(7, 7, 7), 10px 8px 20px rgba(12, 12, 12, 0.5), 24px 25px 20px rgba(17, 17, 17, 0.8), 24px 40px 15px rgba(20, 20, 20, 0.5);
+    transform-style: preserve-3d;
+    transform: rotateX(5deg) rotateY(-8deg);
+}
+
+p.img {
+    perspective: 800px;
+}
+
+.img1 {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    transform-style: preserve-3d;
+    transform: rotateX(0) rotateY(0) rotateZ(0deg);
+    border-radius: 60px 23px 60px 30px;
+    box-shadow: 5px 5px 10px rgb(12, 12, 12), 10px 8px 20px rgba(17, 17, 17, 0.5), 24px 25px 20px rgba(20, 20, 20, 0.8), 24px 40px 15px rgba(24, 24, 24, 0.5);
+}
+
+p.img2 {
+    perspective: 800px;
+}
+
+.img2 {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    transform-style: preserve-3d;
+    transform: rotateX(0) rotateY(0) rotateZ(-0deg);
+    border-radius: 60px 23px 60px 30px;
+    box-shadow: -5px 5px 10px rgb(12, 12, 12), -10px 8px 20px rgba(17, 17, 17, 0.5), -24px 25px 20px rgba(20, 20, 20, 0.8), -24px 40px 15px rgba(24, 24, 24, 0.5);
+}
+
+img {
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-size: cover;
+}
+
+div.hr {
+    display: flex;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #A3B18A;
+    width: 80%;
+    border-radius: 12px;
+}
+
+hr {
+    display: block;
+    width: 98%;
+    border: 2px solid black;
+    border-radius: 0px 0px 12px 12px;
+    align-self: flex-end;
+    margin: 3px auto;
+    padding: 1px;
+}
+
+svg {
+    position: absolute;
+}
+
+.svg1 {
+    background-color: rgb(23, 131, 23);
+}
