@@ -78,6 +78,10 @@ img {
     background-size: cover;
 }
 
+.imgtop {
+    margin-top: 100px;
+}
+
 div.hr {
     display: flex;
     margin: 0 auto;
